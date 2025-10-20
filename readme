@@ -1,0 +1,27 @@
+# 🧠 Intrusion Detection System (IDS) using Machine Learning
+
+This project detects and classifies network intrusions using the **NSL-KDD** dataset and multiple machine learning algorithms.
+
+## 🚀 Features
+- Preprocesses network traffic data (encoding, scaling)
+- Trains and compares:
+  - Random Forest
+  - Support Vector Machine (SVM)
+  - Decision Tree
+  - Logistic Regression
+- Evaluates accuracy, precision, recall, and F1-score
+- Visualizes confusion matrix and feature importance
+- Saves the best model as `ids_model.pkl`
+
+## 🧰 Tech Stack
+- Python 3.x  
+- scikit-learn  
+- pandas  
+- seaborn  
+- matplotlib  
+
+## 📂 Dataset
+- Uses the **NSL-KDD dataset**
+  - `KDDTrain+.txt` for training
+  - `KDDTest+.txt` for testing
+
